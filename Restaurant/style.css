@@ -1,0 +1,90 @@
+body {
+    margin: 0px; /* удаляем отступы, который добавляет браузер по умолчанию */
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    margin: 0px 166px; /* сверху-снизу справа-слева */
+}
+
+.header {
+    background-image: url(bg.jpg); 
+    height: 100vh;
+    background-repeat: no-repeat; /* картинка не повторялась */
+    background-size: cover; /* картинка распологалась равномерно */
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;  
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none; /* удаление подчёркивания */
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    color:#ff7400
+}
+
+.cart {
+    position: relative; /* cart родитель для cart-img */
+    border-right: 1px solid #fff;
+    padding: 10px;
+    height: 50px;
+}
+
+.cart-img {
+   position: absolute; /* картинка не будет ни от кого зависеть */
+   top: 30px;
+   right: 30px;
+}
+
+.number{
+    margin-left: 8px;
+}
+
+.num{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+
+    transition: color 0.3s linear;
+}
+
+.num:hover{
+    color:#ff7400
+}
+
+.phone{
+    font-weight: 400;
+    font-size: 14;
+    color: white;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;   
+}
+
+.button {
+    background-color: #ff7400;
+    color: white;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+
+    transition: background-color 0.2s linear;
+}
+
+.button:hover{
+    background-color:#c85a00
+}
